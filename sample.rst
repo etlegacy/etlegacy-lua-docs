@@ -2,7 +2,7 @@
 Sample code
 ===========
 
-.. tip:: If you want to see some ET-specific Lua examples, you can check the `ET Legacy Lua scripts <https://github.com/etlegacy/etlegacy-lua_scripts>`_ repository.
+.. tip:: If you want to see some specific Lua examples, you can check the `Lua scripts <https://github.com/etlegacy/etlegacy-lua-scripts>`_ repository.
 
 
 General
@@ -12,7 +12,7 @@ General
 General example::
 
     --[[
-    Lua Example ETLegacy
+    Lua Example
     --]]
 
     function et_InitGame(levelTime,randomSeed,restart)

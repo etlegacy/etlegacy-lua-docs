@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Legacy Lua API documentation build configuration file, created by
+# League Lua API documentation build configuration file, created by
 # sphinx-quickstart on Tue Sep 13 00:05:27 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -52,7 +52,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Legacy Lua API'
+project = 'League Lua API'
 copyright = '2012-2020, ET: Legacy Team'
 author = 'ET: Legacy Team'
 
@@ -137,7 +137,7 @@ html_theme = 'sphinx_rtd_theme'
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = 'Legacy Lua API v2.76'
+# html_title = 'League Lua API v2.76'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -237,7 +237,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'LegacyLuaAPIdoc'
+htmlhelp_basename = 'LeagueLuaAPIdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -263,7 +263,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'LegacyLuaAPI.tex', 'Legacy Lua API Documentation',
+    (master_doc, 'LeagueLuaAPI.tex', 'League Lua API Documentation',
      'ET: Legacy Team', 'manual'),
 ]
 
@@ -305,7 +305,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'legacyluaapi', 'Legacy Lua API Documentation',
+    (master_doc, 'leagueluaapi', 'League Lua API Documentation',
      [author], 1)
 ]
 
@@ -320,8 +320,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'LegacyLuaAPI', 'Legacy Lua API Documentation',
-     author, 'LegacyLuaAPI', 'One line description of project.',
+    (master_doc, 'LeagueLuaAPI', 'League Lua API Documentation',
+     author, 'LeagueLuaAPI', 'One line description of project.',
      'Miscellaneous'),
 ]
 

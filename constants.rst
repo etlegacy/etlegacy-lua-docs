@@ -51,7 +51,7 @@ et.CS_INTERMISSION_START_TIME  36
 et.CS_ENDGAME_STATS            37
 et.CS_CHARGETIMES              38
 et.CS_FILTERCAMS               39
-et.CS_LEGACYINFO               40
+et.CS_MODINFO                  40
 et.CS_SVCVAR                   41
 et.CS_CONFIGNAME               42
 et.CS_TEAMRESTRICTIONS         43
@@ -511,12 +511,12 @@ Lua constants
 =================  ====================================  ==================
 Name               Value                                 Description
 =================  ====================================  ==================
-LUA_PATH           ./legacy/?.lua;                       Ease use of the require function
-                   ./legacy/lualibs/?.lua;               to load scripts
+LUA_PATH           ./league/?.lua;                       Ease use of the require function
+                   ./league/lualibs/?.lua;               to load scripts
                    fs_homepath/fs_game/?.lua;
                    fs_homepath/fs_game/lualibs/?.lua
-LUA_CPATH          ./legacy/lualibs/?.so;                Ease use of the require function
-                   fs_homepath/legacy/lualibs/?.so       to load libraries
+LUA_CPATH          ./league/lualibs/?.so;                Ease use of the require function
+                   fs_homepath/league/lualibs/?.so       to load libraries
 LUA_DIRSEP         /                                     Directory separator
 _VERSION           Lua 5.3                               Lua version
 =================  ====================================  ==================

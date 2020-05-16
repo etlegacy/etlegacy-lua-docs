@@ -2,7 +2,7 @@
 Database
 ========
 
-Both the Legacy mod and the ET: Legacy engine are built-in with `SQLite3 <https://www.sqlite.org/>`_ database support. The engine allows to execute SQL statement directly in console, while the Legacy mod has access through `LuaSQL <https://keplerproject.github.io/luasql/>`_.
+Both the League mod and the ET: Legacy engine are built-in with `SQLite3 <https://www.sqlite.org/>`_ database support. The engine allows to execute SQL statement directly in console, while the League mod has access through `LuaSQL <https://keplerproject.github.io/luasql/>`_.
 
 .. tip:: See the `Database <sample.html#database>`__ sample code for an example of basic database usage.
 
@@ -73,9 +73,9 @@ If desired, Lua scripts can also connect to the engine memory database by the fo
 
     conn = assert(env:connect("file::memory:?cache=shared"))
 
-.. Note:: The database is only active when the `db_mode <https://dev.etlegacy.com/projects/etlegacy/wiki/List_of_Cvars#db_-Additional>`_ cvar is set.
+.. Note:: The database is only active when the *db_mode* cvar is set.
 
-To save this in memory database to disk use the **saveDB** console command. See also the `db_url <https://dev.etlegacy.com/projects/etlegacy/wiki/List_of_Cvars#db_-Additional>`_ cvar to specify the database path.
+To save this in memory database to disk use the **saveDB** console command. See also the *db_url* cvar to specify the database path.
 
 
 Connection objects

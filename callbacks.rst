@@ -38,7 +38,7 @@ Called when qagame runs a server frame.
 et_Quit()
 ---------
 
-Called when Legacy unloads the mod.
+Called when League unloads the mod.
 
 The mod should close all open filedescriptors and perform all cleanup.
 
