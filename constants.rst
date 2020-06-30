@@ -518,5 +518,5 @@ LUA_PATH           ./league/?.lua;                       Ease use of the require
 LUA_CPATH          ./league/lualibs/?.so;                Ease use of the require function
                    fs_homepath/league/lualibs/?.so       to load libraries
 LUA_DIRSEP         /                                     Directory separator
-_VERSION           Lua 5.3                               Lua version
+_VERSION           Lua 5.4                               Lua version
 =================  ====================================  ==================
