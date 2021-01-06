@@ -511,12 +511,12 @@ Lua constants
 =================  ====================================  ==================
 Name               Value                                 Description
 =================  ====================================  ==================
-LUA_PATH           ./league/?.lua;                       Ease use of the require function
-                   ./league/lualibs/?.lua;               to load scripts
+LUA_PATH           ./legacy/?.lua;                       Ease use of the require function
+                   ./legacy/lualibs/?.lua;               to load scripts
                    fs_homepath/fs_game/?.lua;
                    fs_homepath/fs_game/lualibs/?.lua
-LUA_CPATH          ./league/lualibs/?.so;                Ease use of the require function
-                   fs_homepath/league/lualibs/?.so       to load libraries
+LUA_CPATH          ./legacy/lualibs/?.so;                Ease use of the require function
+                   fs_homepath/legacy/lualibs/?.so       to load libraries
 LUA_DIRSEP         /                                     Directory separator
 _VERSION           Lua 5.4                               Lua version
 =================  ====================================  ==================

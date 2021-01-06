@@ -11,7 +11,7 @@ Cvars
 lua_modules
 -----------
 
-Space separated list of lua modules for League mod to load. Modules will be run in the order listed.
+Space separated list of lua modules for Legacy mod to load. Modules will be run in the order listed.
 
 
 lua_allowedmodules
