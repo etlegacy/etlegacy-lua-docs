@@ -231,3 +231,15 @@ et_SpawnEntitiesFromString()
 ----------------------------
 
 Called when an entity definition is parsed to spawn gentities.
+
+
+intercepted, message = et_Chat( sender, receiver, message )
+-----------------------------------------------------------
+
+Called whenever a player sends a chat message. It is called for each player receiving the message.
+
+* **sender** is the player sending the message.
+* **receiver** is the player receiving the message.
+* **message** is the chat message.
+
+Returns an integer (intercepted) and a string (message). If intercepted is 1, the chat message will be replaced.
