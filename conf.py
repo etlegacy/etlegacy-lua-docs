@@ -53,7 +53,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Legacy Lua API'
-copyright = '2012-2020, ET: Legacy Team'
+copyright = '2012-2024, ET: Legacy Team'
 author = 'ET: Legacy Team'
 
 # The version info for the project you're documenting, acts as replacement for
