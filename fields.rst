@@ -115,6 +115,7 @@ sess.spec_team                     int          rw
 sess.kills                         int          rw
 sess.deaths                        int          rw
 sess.gibs                          int          rw
+sess.kill_assists                  int          rw
 sess.self_kills                    int          rw
 sess.team_kills                    int          rw
 sess.team_gibs                     int          rw
