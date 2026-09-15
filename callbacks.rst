@@ -231,3 +231,13 @@ et_SpawnEntitiesFromString()
 ----------------------------
 
 Called when an entity definition is parsed to spawn gentities.
+
+
+et_Revive( revivee, reviver, invulnEndTime )
+--------------------------------------------
+
+Called whenever a player gets revived.
+
+* **revivee** is the victim who got revived.
+* **reviver** is the medic who did the reviving.
+* **invulnEndTime** is the timestamp when the spawn shield/invulnerability ends.
