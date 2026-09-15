@@ -370,6 +370,51 @@ et.STAT_ANTIWARP_DELAY  9           Extra lag on the lagometer to reflect warp s
 ======================  ==========  ==================
 
 
+EF constants
+============
+
+
+=====================  ==============================  =========================================================
+Name                   Value                           Description
+=====================  ==============================  =========================================================
+et.EF_NONE             0x00000000                      None
+et.EF_DEAD             0x00000001                      Don't draw a foe marker over players with EF_DEAD
+et.EF_NONSOLID_BMODEL  0x00000002                      bmodel is visible, but not solid
+et.EF_TELEPORT_BIT     0x00000004                      Toggled every time the origin abruptly changes
+et.EF_READY            0x00000008                      Player is ready
+et.EF_CROUCHING        0x00000010                      Player is crouching
+et.EF_MG42_ACTIVE      0x00000020                      Currently using an MG42
+et.EF_NODRAW           0x00000040                      May have an event, but no model (unspawned items)
+et.EF_FIRING           0x00000080                      For active weapons
+et.EF_INHERITSHADER    EF_FIRING                       Some ents will never use EF_FIRING, hijack it for "USESHADER"
+et.EF_SPINNING         0x00000100                      Added for level editor control of spinning pickup items
+et.EF_BREATH           EF_SPINNING                     Characters will not have EF_SPINNING set, hijack for drawing character breath
+et.EF_TALK             0x00000200                      Draw a talk balloon
+et.EF_CONNECTION       0x00000400                      Draw a connection trouble sprite
+et.EF_SMOKINGBLACK     0x00000800                      Like EF_SMOKING only darker & bigger
+et.EF_HEADSHOT         0x00001000                      Has been shot in the head since respawn
+et.EF_SMOKING          0x00002000                      ET_GENERAL ents will emit smoke if set
+et.EF_OVERHEATING      (EF_SMOKING | EF_SMOKINGBLACK)  Light smoke/steam effect
+et.EF_VOTED            0x00004000                      Already cast a vote
+et.EF_TAGCONNECT       0x00008000                      Connected to another entity via tag
+et.EF_MOUNTEDTANK      EF_TAGCONNECT                   Duplicated for clarity
+et.EF_FAKEBMODEL       0x00010000                      From etpro
+et.EF_PATH_LINK        0x00020000                      Linking trains together
+et.EF_ZOOMING          0x00040000                      Client is zooming
+et.EF_PRONE            0x00080000                      Player is prone
+et.EF_PRONE_MOVING     0x00100000                      Player is prone and moving
+et.EF_VIEWING_CAMERA   0x00200000                      Player is viewing a camera
+et.EF_AAGUN_ACTIVE     0x00400000                      Player is manning an AA gun
+et.EF_SPARE0           0x00800000                      Freed
+et.EF_SPARE1           0x01000000                      Freed
+et.EF_SPARE2           0x02000000                      Freed
+et.EF_BOUNCE           0x04000000                      For missiles
+et.EF_BOUNCE_HALF      0x08000000                      For missiles
+et.EF_MOVER_STOP       0x10000000                      Will push otherwise
+et.EF_MOVER_BLOCKED    0x20000000                      Mover was blocked dont lerp on the client
+=====================  ==============================  =========================================================
+
+
 CONTENTS constants
 ==================
 
