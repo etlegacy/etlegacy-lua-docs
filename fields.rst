@@ -89,6 +89,8 @@ ps.classWeaponTime                 int          rw
 ps.viewheight                      int          ro
 ps.leanf                           float        ro
 
+sess.authName                      int          ro
+sess.authId                        int          ro
 sess.sessionTeam                   int          rw
 sess.spectatorTime                 int          rw
 sess.spectatorState                int          rw
