@@ -241,3 +241,15 @@ Called whenever a player gets revived.
 * **revivee** is the victim who got revived.
 * **reviver** is the medic who did the reviving.
 * **invulnEndTime** is the timestamp when the spawn shield/invulnerability ends.
+
+
+intercepted, message = et_Chat( sender, receiver, text )
+--------------------------------------------------------
+
+Called whenever a player sends a chat message, for each player who receives it.
+
+* **sender** is the player sending the message.
+* **receiver** is the player receiving the message.
+* **text** is the chat message.
+
+Returns an integer (intercepted) and a string (message). If intercepted is 1, the chat message will be replaced.
